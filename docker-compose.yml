@@ -1,0 +1,8 @@
+version: 'v1'
+
+services:
+  web:
+    image: viktorwu/expense-tracker:v1
+    container_name: expense-tracker
+    ports:
+      - '80:80'
